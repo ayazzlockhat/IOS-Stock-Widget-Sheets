@@ -1,5 +1,4 @@
-// The URL of your JSON endpoint
-const endpoint = "https://spreadsheets.google.com/feeds/cells/1tgBHYKBqikSJkPrj5KupmP336NXdvG1hz3qYDv_stIc/1/public/full?alt=json"
+const endpoint = "https://spreadsheets.google.com/feeds/cells/1JUb-xGdvgL6EtBMy7T3cU17oeXsZu0xg34k-_u1FFVI/1/public/full?alt=json"
 
 // Function that performs the request to the JSON endpoint
 async function loadItems() {
@@ -13,9 +12,9 @@ async function loadItems() {
 let json = await loadItems()
 
 // Obtaining the content of the exact cell we are looking for
-stockValue = json[64].content["$t"]
-mktValue = json[63].content["$t"]
-roi = json[66].content["$t"]
+stockValue = json[21].content["$t"]
+mktValue = json[20].content["$t"]
+roi = json[23].content["$t"]
 
 // Create the widget
 let w = new ListWidget()
