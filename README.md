@@ -28,6 +28,6 @@ How to create a Widget on IOS 14+ which allows you to display live information s
 
 ***
 ### IMPORTANT:
-- The numbers in this part of the code `stockValue = json.values[y][x]`
-`mktValue = json.values[y][x]` `roi = json.values[y][x]` may be different depending on the row and column your information is on the Spreadsheet. You must find the correct placement numbers to have the widget display the information you would like.
+- The X and Y variables in this part of the code `stockValue = json.values[y][x]`
+`mktValue = json.values[y][x]` `roi = json.values[y][x]` will be different depending on the row and column your information is on the Spreadsheet. You must find the correct placement numbers to have the widget display the information you would like.
 - You must change the `const endpoint = ` value to your specific URL found in step 5
