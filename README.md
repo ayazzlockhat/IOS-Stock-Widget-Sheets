@@ -2,7 +2,7 @@
 How to create a Widget on IOS 14+ which allows you to display live information such as stocks from a Google Spreadsheet.
 
 # Create an IOS Stocks Widget Tracker with Google Spreadsheets.
-[image](https://user-images.githubusercontent.com/77209522/139520410-090e5f71-1bfc-4300-bf6b-70e8db3bebdc.png)
+![](https://user-images.githubusercontent.com/77209522/139520410-090e5f71-1bfc-4300-bf6b-70e8db3bebdc.png)
 
 ***
 
